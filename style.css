@@ -1,0 +1,48 @@
+.boxes{
+    
+    padding:10px;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+}
+
+   .boxes div {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .box1{
+    background-color:chartreuse;
+}
+    .box2{
+    background-color:rgb(157, 168, 96);
+}
+    .box3{
+    background-color:peru;
+}
+.items{
+    background-color: blanchedalmond;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: repeat(2 ,1fr);
+gap: 10px;
+}
+.items div{
+    background-color: rgb(177, 240, 240);
+}
+
+
+.circle {
+
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 150px;
+    height: 150px;
+    background-color: royalblue;
+    border-radius: 50%;
+}
+
+
